@@ -1,4 +1,4 @@
-package com.example.springtfacebook.dto;
+package com.example.springtfacebook.POJO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,18 +6,15 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
+@ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
-public class PostMapper {
+public class CommentMapper {
+    private Long postId;
     private Long id;
+    private String username;
+    private String comment;
     private String title;
-    private String body;
     private String imageName;
-    private String name;
-    private String email;
-    private int noLikes;
-    private int noComments;
-    private boolean likedPost;
     private Long userId;
 }

@@ -1,7 +1,6 @@
 package com.example.springtfacebook.controller;
 
-import com.example.springtfacebook.dto.CommentMapper;
-import com.example.springtfacebook.dto.Login;
+import com.example.springtfacebook.POJO.CommentMapper;
 import com.example.springtfacebook.model.Comment;
 import com.example.springtfacebook.model.Person;
 import com.example.springtfacebook.services.serviceImplementation.CommentServiceImpl;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

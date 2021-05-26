@@ -1,4 +1,4 @@
-package com.example.springtfacebook.dto;
+package com.example.springtfacebook.POJO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

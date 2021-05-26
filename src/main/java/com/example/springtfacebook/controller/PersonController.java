@@ -1,7 +1,7 @@
 package com.example.springtfacebook.controller;
 
-import com.example.springtfacebook.dto.Login;
-import com.example.springtfacebook.dto.PostMapper;
+import com.example.springtfacebook.POJO.Login;
+import com.example.springtfacebook.POJO.PostMapper;
 import com.example.springtfacebook.model.Comment;
 import com.example.springtfacebook.model.Person;
 import com.example.springtfacebook.model.Post;

@@ -1,6 +1,6 @@
 package com.example.springtfacebook.services.serviceImplementation;
 
-import com.example.springtfacebook.dto.CommentMapper;
+import com.example.springtfacebook.POJO.CommentMapper;
 import com.example.springtfacebook.model.Comment;
 import com.example.springtfacebook.model.Person;
 import com.example.springtfacebook.model.Post;
